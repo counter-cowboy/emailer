@@ -10,8 +10,8 @@ $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->Host = 'smtp.mail.ru';
 $mail->SMTPAuth = true;
-$mail->Username = '79208562003@mail.ru';
-$mail->Password = 'eViPPC7QwhWQ9trTiQSJ';
+$mail->Username = 'user@mail.ru';
+$mail->Password = 'passwo';
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
