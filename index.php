@@ -16,7 +16,7 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
 $mail->setFrom('qwerty@qw.ru', 'Sender');
-$mail->addAddress('79208562003@mail.ru', 'Oleg');
+$mail->addAddress('example3@mail.ru', 'Author');
 
 for ($i = 1; $i < 3; $i++) {
     $mail->Subject = 'Test email ' . random_int(0, 15);
